@@ -1,0 +1,8 @@
+   0 mkdir -p /opt/test/Geo
+   1 cd /opt/test/Geo
+   2 touch file.txt
+   3 cd
+   4 cp /opt/test/Geo/file.txt /tmp/file2.txt
+   5 rm /opt/test/Geo/file.txt
+   6 ls /tmp/file2.txt
+   7 history > history.01.txt
